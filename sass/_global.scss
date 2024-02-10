@@ -2,6 +2,12 @@
    margin: 0;
    padding: 0;
 }
+ul {
+   list-style: none;
+   li {
+      margin: 0 0.4rem;
+   }
+}
 .flex {
    display: flex;
 }
@@ -29,8 +35,14 @@
    }
 }
 
-// @media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+   
+}
 
-// @media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+   
+}
 
-// @media (min-width: 1536px) {}
+@media (min-width: 1536px) {
+   
+}

@@ -1,4 +1,173 @@
 .posts {
    flex: 4;
-   border: 1px solid #222;
 }
+.post-section {
+   margin: 0 0 0.5rem 0;
+   padding: 0;
+   .post-image {
+      width: 100%;
+      height: auto;
+   }
+   .post-content {
+      padding: 1rem;
+   }
+   .post-title {
+      align-items: center;
+      margin-bottom: 0.75rem;
+      .post-meta {
+         display: flex;
+         align-items: center;
+         .post-author {
+            position: absolute;
+            >img.avatar {
+               &:first-child {
+                  border-radius: $border-radius-1;
+                  height: 32px;
+               }
+               &:not(:first-child) {
+                  top: 100%;
+                  left: 100%;
+                  transform: translate(-75%, 50%);
+                  border-radius: $border-radius-50;
+                  border-color: #fff;
+                  border-width: 2px;
+                  height: 18px;
+               }
+               &.radius-50 {
+                  border-radius: $border-radius-50;
+               }
+            }
+         }
+         .post-title-info {
+            margin-left: 50px;
+            font-size: 0.8rem;
+            color: rgba($state-700, 1);
+         }
+      }
+   }
+   .post-indention {
+      .title {
+         @include poppins-bold();
+         margin-bottom: 0.2rem;
+         font-size: 1.25rem;
+      }
+      .title:hover {
+         cursor: pointer;
+         color: $blue-700;
+      }
+      .tags {
+         display: flex;
+         flex-wrap: wrap;
+         font-size: 0.8rem;
+         margin-bottom: 0.5rem;
+         .tag {
+            margin: 0 0.1rem 0 0;
+            span {
+               color: rgba($state-700, 1);
+            }
+         }.tag:hover {
+            cursor: pointer;
+            background-color: $gray-50;
+         }
+         .tag-purple {
+            border: 1px solid transparent;
+            color: rgba($purple-400, 1);
+            &:hover {
+               background-color: rgba($purple-400, 0.2);
+               border: 1px solid rgba($purple-400, 1.2);
+            }
+         }
+         .tag-cyan {
+            border: 1px solid transparent;
+            color: rgba($cyan-300, 1);
+         
+            &:hover {
+               background-color: rgba($cyan-300, 0.2);
+               border: 1px solid rgba($cyan-300, 1.2);
+            }
+         }
+      }
+      .bottom {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         font-size: 0.8rem;
+         .details {
+            display: flex;
+            height: 36px;
+            .reactions {
+               display: flex;
+               align-items: center;
+               height: 100%;
+               margin: 0;
+               padding: 0.25rem 0.75rem;
+               .reactions-icons {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  .icon {
+                     display: flex;
+                     flex-wrap: wrap;
+                     border-radius: $border-radius-50;
+                  }
+               }
+               .reactions-counter {
+                  display: flex;
+                  flex-wrap: wrap;
+                  align-items: center;
+                  padding: 0 0.4rem;
+                  span {
+                     display: inline;
+                  }
+               }
+            }
+            .reactions:hover {
+               cursor: pointer;
+               background-color: $gray-100;
+            }
+            .comments {
+               display: flex;
+               align-items: center;
+               height: 100%;
+               margin: 0;
+               padding: 0.25rem 0.75rem;
+               span {
+                  display: inline;
+               }
+            }
+            .comments:hover {
+               cursor: pointer;
+               background-color: $gray-100;
+            }
+         }
+         .save {
+            display: flex;
+            align-items: center;
+            .icon {
+               padding: 0.4rem;
+               margin-left: 0.4rem;
+               border-radius: $border-radius-1;
+               &:hover {
+                  cursor: pointer;
+                  background-color: $indigo-50;
+               }
+            }
+         }
+      }
+   }
+}
+@media (min-width: 640px) {
+   .post-section .post-indention .title {
+      font-size: 1.5rem;
+   }
+}
+@media (min-width: 768px) {
+   .post-indention {
+      margin-left: 50px;
+   }
+}
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}

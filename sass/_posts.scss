@@ -116,9 +116,6 @@
                   flex-wrap: wrap;
                   align-items: center;
                   padding: 0 0.4rem;
-                  span {
-                     display: inline;
-                  }
                }
             }
             .reactions:hover {
@@ -131,9 +128,6 @@
                height: 100%;
                margin: 0;
                padding: 0.25rem 0.75rem;
-               span {
-                  display: inline;
-               }
             }
             .comments:hover {
                cursor: pointer;

@@ -41,8 +41,8 @@ ul li {
   display: block;
 }
 
-.d-ruby {
-  display: ruby;
+.d-contents {
+  display: contents;
 }
 
 .card {
@@ -56,6 +56,9 @@ ul li {
 @media (min-width: 640px) {
   .d-sm-block {
     display: block;
+  }
+  .d-sm-contents {
+    display: contents;
   }
 }
 @media (min-width: 768px) {
@@ -205,9 +208,6 @@ ul li {
   align-items: center;
   padding: 0 0.4rem;
 }
-.post-section .post-indention .bottom .details .reactions .reactions-counter span {
-  display: inline;
-}
 .post-section .post-indention .bottom .details .reactions:hover {
   cursor: pointer;
   background-color: #f3f4f6;
@@ -218,9 +218,6 @@ ul li {
   height: 100%;
   margin: 0;
   padding: 0.25rem 0.75rem;
-}
-.post-section .post-indention .bottom .details .comments span {
-  display: inline;
 }
 .post-section .post-indention .bottom .details .comments:hover {
   cursor: pointer;

@@ -41,8 +41,9 @@ ul {
 }
 .d-block {
    display: block;
-}.d-ruby {
-   display: ruby;
+}
+.d-contents {
+   display: contents;
 }
 .card {
    background-color: #fff;
@@ -54,6 +55,9 @@ ul {
 @media (min-width: 640px) {
    .d-sm-block {
       display: block;
+   }
+   .d-sm-contents {
+      display: contents;
    }
 }
 

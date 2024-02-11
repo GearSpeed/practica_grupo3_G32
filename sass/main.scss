@@ -1,14 +1,7 @@
+@import "fonts";
 @import "global";
 @import "icons";
-@import "fonts";
 @import "header";
 @import "aside";
 @import "posts";
 @import "sidebar";
-
-body {
-   @include poppins-regular();
-}
-.icon-car::before {
-   content: "\f0dd";
-}

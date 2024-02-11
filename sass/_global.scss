@@ -1,15 +1,30 @@
+/* Size radius */
+$border-radius-1: 0.25rem;
+$border-radius-50: 50%;
+
+/* Colors */
+$purple-100: #f3e8ff;
+$purple-400: #c084fc;
+$state-700: #334155;
+$blue-700: #1d4ed8;
+$gray-50: #f9fafb;
+$gray-100: #f3f4f6;
+$cyan-300: #a2fff1;
+$indigo-50: #eef2ff;
+
 * {
    margin: 0;
    padding: 0;
+}
+body {
+   @include poppins-regular();
+   background-color: #f5f5f5;
 }
 ul {
    list-style: none;
    li {
       margin: 0 0.4rem;
    }
-}
-.flex {
-   display: flex;
 }
 .mx-2 {
    margin-left: 0.4rem;
@@ -18,11 +33,24 @@ ul {
 .pt-5 {
    padding-top: 1rem;
 }
-
 .d-none {
    display: none;
 }
-
+.d-flex {
+   display: flex;
+}
+.d-block {
+   display: block;
+}.d-ruby {
+   display: ruby;
+}
+.card {
+   background-color: #fff;
+   overflow: hidden;
+   margin: 0.4rem;
+   padding: 0.1rem 0.2rem;
+   border-radius: $border-radius-1;
+}
 @media (min-width: 640px) {
    .d-sm-block {
       display: block;
@@ -33,10 +61,15 @@ ul {
    .d-md-block {
       display: block;
    }
+   .m-md-2 {
+      padding: 0.5rem;
+   }
 }
 
 @media (min-width: 1024px) {
-   
+   .d-lg-block {
+      display: block;
+   }
 }
 
 @media (min-width: 1280px) {

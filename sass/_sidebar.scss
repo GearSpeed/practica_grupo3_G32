@@ -3,20 +3,18 @@ $white: #fff;
 $gray64: rgba(64, 64, 64);
 $linkHover: rgba(47, 58, 178);
 $paddingInt: 12px 16px;
+
 /*Mixins*/
 @mixin cajasSidebar{
    border-radius: 5px;
    box-shadow: inset;
 }
 
-
-
 .sidebar {
    flex: 2;
    border: none;
    padding: 0px;
    gap: 20px;
-
    a{
       text-decoration: none;
       color: $gray64;
@@ -24,21 +22,17 @@ $paddingInt: 12px 16px;
    a:hover{
       color: $linkHover;
    }
-   
    .container1{
       @include cajasSidebar;
       background-color: $white;
       .listSidebar{
          .firstPost{
-            
             padding: $paddingInt;
             border-bottom: 1px solid rgba( 245, 245, 245, 1.0);
             p{
                font-size: 12px;
             }
-      
          }
-
          .postsList{
             border: none;
             .linkPrim{
@@ -55,11 +49,9 @@ $paddingInt: 12px 16px;
          }
       }    
    }
-
    .gap{
       margin-top: 20px;
    }
-
    .container2{
       border-bottom: 1px solid rgb(230, 230, 230);
       padding: 0 16px 16px 16px;
@@ -75,4 +67,3 @@ $paddingInt: 12px 16px;
       }
    }
 }
-

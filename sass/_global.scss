@@ -11,6 +11,12 @@ $gray-50: #f9fafb;
 $gray-100: #f3f4f6;
 $cyan-300: #a2fff1;
 $indigo-50: #eef2ff;
+$green-500: #22c55e;
+$lime-500: #84cc16;
+$yelow-300: #fde047;
+$red-700: #b91c1c;
+$orange-600:#ea580c;
+$pink-500:#ec4899;
 
 * {
    margin: 0;
@@ -47,8 +53,9 @@ ul {
 }
 .d-block {
    display: block;
-}.d-ruby {
-   display: ruby;
+}
+.d-contents {
+   display: contents;
 }
 .card {
    background-color: #fff;
@@ -60,6 +67,9 @@ ul {
 @media (min-width: 640px) {
    .d-sm-block {
       display: block;
+   }
+   .d-sm-contents {
+      display: contents;
    }
 }
 

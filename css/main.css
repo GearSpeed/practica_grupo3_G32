@@ -318,7 +318,61 @@ ul li {
     margin-left: 50px;
   }
 }
+/* Variables */
+/*Mixins*/
 .sidebar {
   flex: 2;
-  border: 1px solid #222;
+  border: none;
+  padding: 0px;
+  gap: 20px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: rgb(64, 64, 64);
+}
+.sidebar a:hover {
+  color: rgb(47, 58, 178);
+}
+.sidebar .container1 {
+  border-radius: 5px;
+  box-shadow: inset;
+  background-color: #fff;
+}
+.sidebar .container1 .listSidebar .firstPost {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+.sidebar .container1 .listSidebar .firstPost p {
+  font-size: 12px;
+}
+.sidebar .container1 .listSidebar .postsList {
+  border: none;
+}
+.sidebar .container1 .listSidebar .postsList .linkPrim {
+  padding: 12px 16px !important;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+.sidebar .container1 .listSidebar .postsList .linkPrim p {
+  font-size: 14px;
+}
+.sidebar .container1 .listSidebar .postsList .linkPrim div {
+  font-size: 12px;
+}
+.sidebar .gap {
+  margin-top: 20px;
+}
+.sidebar .container2 {
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding: 0 16px 16px 16px;
+}
+.sidebar .container2 .title {
+  padding: 12px 16px;
+}
+.sidebar .container2 .linkPrim {
+  padding: 12px 16px 12px 25px;
+}
+.sidebar .container2 .linkPrim:hover {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: inset;
 }/*# sourceMappingURL=main.css.map */

@@ -166,21 +166,85 @@ ul li {
   cursor: pointer;
   background-color: #f9fafb;
 }
-.post-section .post-indention .tags .tag-purple {
+.post-section .post-indention .tags .tag-discuss, .post-section .post-indention .tags .tag-vim {
   border: 1px solid transparent;
   color: #c084fc;
 }
-.post-section .post-indention .tags .tag-purple:hover {
+.post-section .post-indention .tags .tag-discuss:hover, .post-section .post-indention .tags .tag-vim:hover {
   background-color: rgba(192, 132, 252, 0.2);
   border: 1px solid #c084fc;
 }
-.post-section .post-indention .tags .tag-cyan {
+.post-section .post-indention .tags .tag-weeklyretro {
   border: 1px solid transparent;
   color: #a2fff1;
 }
-.post-section .post-indention .tags .tag-cyan:hover {
+.post-section .post-indention .tags .tag-weeklyretro:hover {
   background-color: rgba(162, 255, 241, 0.2);
   border: 1px solid #a2fff1;
+}
+.post-section .post-indention .tags .tag-productivity, .post-section .post-indention .tags .tag-macos, .post-section .post-indention .tags .tag-terminal, .post-section .post-indention .tags .tag-cheatsheet {
+  border: 1px solid transparent;
+  color: #1d4ed8;
+}
+.post-section .post-indention .tags .tag-productivity:hover, .post-section .post-indention .tags .tag-macos:hover, .post-section .post-indention .tags .tag-terminal:hover, .post-section .post-indention .tags .tag-cheatsheet:hover {
+  background-color: rgba(29, 78, 216, 0.2);
+  border: 1px solid #1d4ed8;
+}
+.post-section .post-indention .tags .tag-github {
+  border: 1px solid transparent;
+  color: #22c55e;
+}
+.post-section .post-indention .tags .tag-github:hover {
+  background-color: rgba(34, 197, 94, 0.2);
+  border: 1px solid #22c55e;
+}
+.post-section .post-indention .tags .tag-devops {
+  border: 1px solid transparent;
+  color: #84cc16;
+}
+.post-section .post-indention .tags .tag-devops:hover {
+  background-color: rgba(132, 204, 22, 0.2);
+  border: 1px solid #84cc16;
+}
+.post-section .post-indention .tags .tag-beginners, .post-section .post-indention .tags .tag-cli, .post-section .post-indention .tags .tag-linux {
+  border: 1px solid transparent;
+  color: #334155;
+}
+.post-section .post-indention .tags .tag-beginners:hover, .post-section .post-indention .tags .tag-cli:hover, .post-section .post-indention .tags .tag-linux:hover {
+  background-color: rgba(51, 65, 85, 0.2);
+  border: 1px solid #334155;
+}
+.post-section .post-indention .tags .tag-programming {
+  border: 1px solid transparent;
+  color: #b91c1c;
+}
+.post-section .post-indention .tags .tag-programming:hover {
+  background-color: rgba(185, 28, 28, 0.2);
+  border: 1px solid #b91c1c;
+}
+.post-section .post-indention .tags .tag-tutorial {
+  border: 1px solid transparent;
+  color: #fde047;
+}
+.post-section .post-indention .tags .tag-tutorial:hover {
+  background-color: rgba(253, 224, 71, 0.2);
+  border: 1px solid #fde047;
+}
+.post-section .post-indention .tags .tag-java {
+  border: 1px solid transparent;
+  color: #ea580c;
+}
+.post-section .post-indention .tags .tag-java:hover {
+  background-color: rgba(234, 88, 12, 0.2);
+  border: 1px solid #ea580c;
+}
+.post-section .post-indention .tags .tag-api {
+  border: 1px solid transparent;
+  color: #ec4899;
+}
+.post-section .post-indention .tags .tag-api:hover {
+  background-color: rgba(236, 72, 153, 0.2);
+  border: 1px solid #ec4899;
 }
 .post-section .post-indention .bottom {
   display: flex;

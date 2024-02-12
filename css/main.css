@@ -85,10 +85,17 @@ ul li {
 }
 
 .asideods {
-  padding: 1rem;
+  max-width: 17.5rem;
+  padding: 0.5rem;
   box-sizing: border-box;
   flex: 2;
-  border: 1px solid #222;
+}
+
+.myCardInfo {
+  padding: 1rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.375rem;
+  background-color: white;
 }
 
 .crayons-subtitle-2ods {
@@ -96,7 +103,11 @@ ul li {
 }
 
 .mb-4ods {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.mt-4ods {
+  margin-top: 0.5rem;
 }
 
 .lh-tightods {
@@ -123,12 +134,12 @@ ul li {
   box-sizing: border-box;
   padding: calc(0.5rem - 1px) calc(1rem - 1px);
   border: 1px solid;
-  border-color: blue;
+  border-color: rgb(80, 80, 255);
   text-decoration: none;
   border-radius: 0.375rem;
   font: inherit;
   background-color: transparent;
-  color: blue;
+  color: rgb(80, 80, 255);
   outline: 0;
   text-align: center;
   display: inline-flex;
@@ -138,8 +149,47 @@ ul li {
 
 .c-ctaods:hover {
   color: white;
-  background-color: blue;
+  background-color: rgb(80, 80, 255);
   text-decoration: underline;
+}
+
+.crayons-layout__sidebar-left {
+  display: block;
+  grid-row-end: initial;
+  width: 240px;
+}
+
+.c-link {
+  position: relative;
+  border-radius: 0.375rem;
+  font: inherit;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  max-width: 100%;
+}
+
+.c-link--blockods {
+  display: flex;
+  padding: 0.5rem 1rem;
+  overflow-wrap: normal;
+  background-color: transparent;
+}
+.c-link--blockods:hover {
+  color: rgb(80, 80, 255);
+  background-color: rgb(230, 230, 255);
+  text-decoration: underline;
+}
+
+.c-link__icon {
+  margin-right: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .posts {

@@ -1,5 +1,6 @@
 $padding1:0.5rem;
 $padding2:1rem;
+$padding3:0.75rem;
 $fontSize1:1.25rem;
 $lh-tight1:1.25;
 $color-base1:#575757;
@@ -101,4 +102,20 @@ $bluePrincipal: rgb(80, 80, 255);
 ul{
     list-style: none;
     padding: 0;
+}
+.crayons-subtitle-3{
+    font-size: 1rem;
+}
+.py-2{
+    padding-top: $padding1;
+    padding-bottom: $padding1;
+}
+.pl-3{
+    padding-left: $padding3;
+}
+.flex{
+    display: flex;
+}
+.justify-start{
+    justify-content: flex-start;
 }

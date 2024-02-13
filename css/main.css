@@ -157,7 +157,6 @@ ul li {
 }
 
 .crayons-layout__sidebar-left {
-  display: block;
   grid-row-end: initial;
   width: 240px;
 }
@@ -193,6 +192,27 @@ ul li {
 ul {
   list-style: none;
   padding: 0;
+}
+
+.crayons-subtitle-3 {
+  font-size: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .posts {

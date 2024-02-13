@@ -119,3 +119,21 @@ ul{
 .justify-start{
     justify-content: flex-start;
 }
+.c-link--icon-alone{
+    padding: $padding1;
+    display: inline-block;
+}
+.mb-6ods{
+    margin-bottom: 1.5rem;
+}
+.p-2{
+    padding: $padding1;
+}
+.overflow-y-auto{
+    width: 100%;
+    height: 12rem;
+    overflow-y: auto;
+}
+.py-3{
+    padding-top: 2px;
+}

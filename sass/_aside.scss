@@ -69,7 +69,6 @@ $bluePrincipal: rgb(80, 80, 255);
     text-decoration: underline;
 }
 .crayons-layout__sidebar-left{
-    display: block;
     grid-row-end: initial;
     width: 240px;
 }
@@ -94,9 +93,6 @@ $bluePrincipal: rgb(80, 80, 255);
         text-decoration: underline;
     }
 
-}
-.c-link--blockods:hover{
-    
 }
 .c-link__icon{
     margin-right: 0.5rem;

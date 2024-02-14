@@ -10,6 +10,7 @@
    &:hover {
       color: rgba($blue-700, 1);
       background-color: white;
+      cursor: pointer;
    }
 }
 .post-section {
@@ -18,6 +19,9 @@
    .post-image {
       width: 100%;
       height: auto;
+      &:hover {
+         cursor: pointer;
+      }
    }
    .post-content {
       padding: 1rem;
@@ -48,17 +52,23 @@
                   border-radius: $border-radius-50;
                }
             }
+            &:hover {
+               cursor: pointer;
+            }
          }
          .post-title-info {
             margin-left: 50px;
             font-size: 0.8rem;
             color: rgba($state-700, 1);
+            &:hover {
+               cursor: pointer;
+            }
          }
       }
    }
    .post-indention {
       .title {
-         @include poppins-bold();
+         font-weight: 700;
          margin-bottom: 0.2rem;
          font-size: 1.25rem;
       }
@@ -73,6 +83,7 @@
          margin-bottom: 0.5rem;
          .tag {
             margin: 0 0.1rem 0 0;
+            padding: 0.2rem;
             span {
                color: rgba($state-700, 1);
             }
@@ -80,7 +91,7 @@
             cursor: pointer;
             background-color: $gray-50;
          }
-         .tag-discuss, .tag-vim {
+         .tag-discuss, .tag-vim, .tag-webdev {
             border: 1px solid transparent;
             color: rgba($purple-400, 1);
             &:hover {
@@ -88,7 +99,7 @@
                border: 1px solid rgba($purple-400, 1.2);
             }
          }
-         .tag-weeklyretro {
+         .tag-weeklyretro, .tag-python {
             border: 1px solid transparent;
             color: rgba($cyan-300, 1);
          
@@ -97,7 +108,7 @@
                border: 1px solid rgba($cyan-300, 1.2);
             }
          }
-         .tag-productivity, .tag-macos, .tag-terminal, .tag-cheatsheet {
+         .tag-productivity, .tag-macos, .tag-terminal, .tag-cheatsheet, .tag-development, .tag-developers {
             border: 1px solid transparent;
             color: rgba($blue-700, 1);
          
@@ -106,7 +117,7 @@
                border: 1px solid rgba($blue-700, 1.2);
             }
          }
-         .tag-github {
+         .tag-github, .tag-testing {
             border: 1px solid transparent;
             color: rgba($green-500, 1);
          
@@ -115,7 +126,7 @@
                border: 1px solid rgba($green-500, 1.2);
             }
          }
-         .tag-devops {
+         .tag-devops, .tag-career {
             border: 1px solid transparent;
             color: rgba($lime-500, 1);
 
@@ -124,7 +135,7 @@
                border: 1px solid rgba($lime-500, 1.2);
             }
          }
-         .tag-beginners, .tag-cli, .tag-linux {
+         .tag-beginners, .tag-cli, .tag-linux, .tag-react, .tag-welcome {
             border: 1px solid transparent;
             color: rgba($state-700, 1);
          
@@ -142,7 +153,7 @@
                border: 1px solid rgba($red-700, 1.2);
             }
          }
-         .tag-tutorial {
+         .tag-tutorial, .tag-javascript {
              border: 1px solid transparent;
              color: rgba($yelow-300, 1);
          
@@ -151,7 +162,7 @@
                 border: 1px solid rgba($yelow-300, 1.2);
              }
           }
-         .tag-java {
+         .tag-java, .tag-tailwindcss {
             border: 1px solid transparent;
             color: rgba($orange-600, 1);
 
@@ -240,18 +251,3 @@
 .icon-bookmark:hover {
    fill: rgba($blue-700, 1);
 }
-@media (min-width: 640px) {
-   .post-section .post-indention .title {
-      font-size: 1.5rem;
-   }
-}
-@media (min-width: 768px) {
-   .post-indention {
-      margin-left: 50px;
-   }
-}
-@media (min-width: 1024px) {}
-
-@media (min-width: 1280px) {}
-
-@media (min-width: 1536px) {}

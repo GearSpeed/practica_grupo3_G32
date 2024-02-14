@@ -158,3 +158,31 @@ ul{
         
      }
 }
+.borderBox{
+    box-sizing: border-box;
+}
+
+#DarkModeImg{
+    width: 100%;
+    height: 225px;
+    border-radius: $radius;
+}
+.MyLynk{
+    text-decoration: underline;
+    color: rgb(78, 78, 254);
+}
+.fs-s{
+    font-size: 0.875rem;
+}
+.mt-6{
+    margin-top: 1.5rem;
+}
+.sidebar-footer{
+    color: $color-base1;
+}
+.c-link--branded{
+    color: rgb(78, 78, 254);
+    &:hover{
+        text-decoration: underline;
+    }
+}

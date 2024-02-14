@@ -14,12 +14,13 @@ $paddingInt: 12px 16px;
    flex: 2;
    border: none;
    padding: 0px;
-   gap: 20px;
+   
    a{
       text-decoration: none;
       color: $gray64;
    }
    a:hover{
+      cursor: pointer;
       color: $linkHover;
    }
    .container1{
@@ -50,7 +51,7 @@ $paddingInt: 12px 16px;
       }    
    }
    .gap{
-      margin-top: 20px;
+      margin-top: 0.5rem;
    }
    .container2{
       border-bottom: 1px solid rgb(230, 230, 230);

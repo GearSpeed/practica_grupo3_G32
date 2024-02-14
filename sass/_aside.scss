@@ -137,3 +137,24 @@ ul{
 .py-3{
     padding-top: 2px;
 }
+.crayons-sponsorship__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.relative{
+    position: relative;
+}
+.crayons-sponsorship__title{
+    text-size-adjust: 10;
+}
+.Mythreepoints{
+    border-radius: $radius;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+     &:hover{
+        background-color: rgb(247, 247, 247);
+        
+     }
+}

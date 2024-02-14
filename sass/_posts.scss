@@ -83,6 +83,7 @@
          margin-bottom: 0.5rem;
          .tag {
             margin: 0 0.1rem 0 0;
+            padding: 0.2rem;
             span {
                color: rgba($state-700, 1);
             }
@@ -134,7 +135,7 @@
                border: 1px solid rgba($lime-500, 1.2);
             }
          }
-         .tag-beginners, .tag-cli, .tag-linux, .tag-react {
+         .tag-beginners, .tag-cli, .tag-linux, .tag-react, .tag-welcome {
             border: 1px solid transparent;
             color: rgba($state-700, 1);
          
@@ -250,18 +251,3 @@
 .icon-bookmark:hover {
    fill: rgba($blue-700, 1);
 }
-@media (min-width: 640px) {
-   .post-section .post-indention .title {
-      font-size: 1.5rem;
-   }
-}
-@media (min-width: 768px) {
-   .post-indention {
-      margin-left: 50px;
-   }
-}
-@media (min-width: 1024px) {}
-
-@media (min-width: 1280px) {}
-
-@media (min-width: 1536px) {}

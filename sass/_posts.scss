@@ -1,6 +1,17 @@
 .posts {
    flex: 4;
 }
+.tag-header {
+   background-color: none;
+   overflow: hidden;
+   margin: 0.4rem;
+   padding: 0.5rem 0.75rem;
+   border-radius: $border-radius-1;
+   &:hover {
+      color: rgba($blue-700, 1);
+      background-color: white;
+   }
+}
 .post-section {
    margin: 0 0 0.5rem 0;
    padding: 0;
@@ -175,12 +186,15 @@
                padding: 0.25rem 0.75rem;
                .reactions-icons {
                   display: flex;
-                  flex-direction: row;
+                  flex-direction: row-reverse;
                   align-items: center;
-                  .icon {
+                  .reaction-icon {
                      display: flex;
-                     flex-wrap: wrap;
+                     background-color: $gray-100;
+                     border: 2px solid white;
                      border-radius: $border-radius-50;
+                     margin-right: -0.75rem;
+                     overflow: hidden;
                   }
                }
                .reactions-counter {
@@ -188,6 +202,7 @@
                   flex-wrap: wrap;
                   align-items: center;
                   padding: 0 0.4rem;
+                  margin-left: 1rem;
                }
             }
             .reactions:hover {
@@ -221,6 +236,9 @@
          }
       }
    }
+}
+.icon-bookmark:hover {
+   fill: rgba($blue-700, 1);
 }
 @media (min-width: 640px) {
    .post-section .post-indention .title {
